@@ -1,19 +1,14 @@
 # 6FLIX Website
-A deployable visual prototype based directly on the supplied 6FLIX UI references.
 
-## Pages
-- Home (`index.html`)
-- Sports / GRL (`sports.html`)
-- News (`news.html`)
-- Reality (`reality.html`)
-- Live (`live.html`)
-- My List (`my-list.html`)
-- Profile picker (`profiles.html`)
+A fully recreated static 6FLIX website based on the supplied UI references. The pages are built from HTML/CSS components — the supplied screenshots are **not** used as page backgrounds.
 
-## Run locally
-Open `index.html`, or serve the folder with any static web server.
+## Entry points
+- `welcome.html` — public landing page
+- `plans.html` — subscriptions
+- `signup.html` — account creation
+- `login.html` — sign in
+- `profiles.html` — profile picker
+- `index.html` — signed-in home
+- `sports.html`, `news.html`, `reality.html`, `live.html`, `my-list.html`
 
-## GitHub Pages
-Upload all files in this folder to a repository and enable Pages from the repository root.
-
-The supplied UI screenshots are included as local WebP assets so the primary screens match the design references closely. Navigation, profile switching, search and demo watch/info overlays are interactive.
+Open `welcome.html` to test the full signup flow, or `index.html` to jump straight into the streaming UI.
